@@ -1,4 +1,4 @@
-# How to create a texture object for Block Compressed Textures
+# CUDA: Texture Object for Block Compressed Textures
 
 CUDA 11.5以降、ブロック圧縮(BC)テクスチャー用に専用のenumが用意され、これを用いてBCテクスチャー用のCUDA Arrayを作成できるようになりましたが、CUDAサンプルにもドキュメントにも作成したArrayを用いて正しいテクスチャーオブジェクトを作成する方法が示されていなかったので、このリポジトリで示します。
 
